@@ -1,0 +1,43 @@
+{
+  "name": "sol-ems-be",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "repository": "git@github.com:Solutya/sol-ems-be.git",
+  "author": "Shahriar",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "lint": "eslint ./*.js",
+    "lint:fix": "eslint --fix ./*.js",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cloudinary": "^1.33.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "helmet": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.7.2",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "husky": "^8.0.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1"
+  }
+}
