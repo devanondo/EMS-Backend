@@ -1,10 +1,8 @@
 {
-  "name": "sol-ems-be",
+  "name": "be",
   "version": "1.0.0",
   "main": "server.js",
   "type": "module",
-  "repository": "git@github.com:Solutya/sol-ems-be.git",
-  "author": "Shahriar",
   "license": "MIT",
   "private": false,
   "scripts": {
